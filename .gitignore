@@ -1,0 +1,56 @@
+# Environnements virtuels
+venv/
+env/
+*.venv
+
+# Fichiers Python compilés
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Fichiers de configuration sensibles
+.env
+config.py
+*.key
+*.secret
+
+# Base de données Flask-SQLAlchemy (dossier instance)
+instance/
+
+# Fichiers de logs
+*.log
+
+# Fichiers temporaires et de cache
+*.cache
+*.tmp
+*.bak
+
+
+# Fichiers Jupyter Notebook (si utilisé)
+*.ipynb_checkpoints/
+
+# Fichiers spécifiques au système
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Fichiers de build et de déploiement
+static/
+dist/
+build/
+*.egg-info/
+
+# Fichiers models
+*.h5
+*.keras
+
+
+# Ignore Datasets
+data/
+*.csv
+*.jpg
+*.png
+*.gif
+*.tiff
+*.bmp
+*.jpeg
